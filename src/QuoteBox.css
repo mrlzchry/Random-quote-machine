@@ -13,7 +13,7 @@
     border: 5px solid rgb(54, 52, 47);
     margin: auto;
     height: 35vh;
-    width: 500px;
+    width: 30vw;
     padding: 10px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 #text {
-    margin-top: 50px;
+    margin-top: 10%;
     text-align: center;
 }
 
@@ -34,25 +34,29 @@
     margin: 0 auto;
 }
 
-.btncenter {
-    margin-top: 200px;
-}
+/* .btncenter {
+    margin-top: 100%;
+} */
 
 a:link {
-    margin-left: 20px;
+    margin-left: 5%;
     text-decoration: none;
     font-size: 20px;
 }
 
-.Button {
+/* .Button {
     color: black;
   }
   
   /* Increase the specificity */
-  .Button:active {
-    color: white;
-  }
+   /* .Button:active {
+    color: black;
+  }  */ 
 
   #author {
     text-align: center;
+  }
+
+  h7 {
+    margin-left: 30%;
   }
