@@ -1,0 +1,58 @@
+.Quote {
+    text-align:  center;
+}
+
+#quote-box {
+    display:table;
+    /* width: 100vw; */
+    height: 100vh;
+    margin: auto;
+}
+
+.Box {
+    border: 5px solid rgb(54, 52, 47);
+    margin: auto;
+    height: 35vh;
+    width: 500px;
+    padding: 10px;
+}
+
+.center {
+    position: relative;
+    left: 0%;
+    top: 20%;
+    z-index: 1;
+}
+
+#text {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#container{
+    /* background-color: rgb(47, 116, 93); */
+    margin: 0 auto;
+}
+
+.btncenter {
+    margin-top: 200px;
+}
+
+a:link {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Button {
+    color: black;
+  }
+  
+  /* Increase the specificity */
+  .Button:active {
+    color: white;
+  }
+
+  #author {
+    text-align: center;
+  }
