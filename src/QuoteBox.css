@@ -12,7 +12,7 @@
 .Box {
     border: 5px solid rgb(54, 52, 47);
     margin: auto;
-    height: 35vh;
+    height: 35%;
     width: 30vw;
     padding: 10px;
 }
@@ -39,24 +39,62 @@
 } */
 
 a:link {
-    margin-left: 5%;
     text-decoration: none;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-/* .Button {
+ .Button {
     color: black;
   }
   
   /* Increase the specificity */
-   /* .Button:active {
+   .Button:link {
     color: black;
-  }  */ 
+  }  
 
   #author {
     text-align: center;
   }
 
   h7 {
-    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+
+@media only screen and (max-width: 1050px) {
+.Box {
+    width: 60vw;
+}
+}
+
+@media only screen and (max-width: 750px) {
+.Box {
+    width: 100vw;
+    height: 40vh;
+}
+}
+
+#tweet-quote {
+    width: 70px;
+    height: 40px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#new-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

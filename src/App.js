@@ -101,11 +101,10 @@ const [state, setState] = useState({
                     <h5 id='author'>{changeAuthor()}</h5>
                 </div>
                 <ThemeProvider theme={theme}>
-                <Button id='new-quote' sx={{color:'black', marginLeft:'25%'}} color='neutral' variant="contained" onClick={updateState}>Click me for random quote!</Button>
+                <Button id='new-quote' sx= {{color:'black'}} className="Button" color='neutral' variant="contained" onClick={updateState}>Click me for random quote!</Button>
                 </ThemeProvider>
-                {/* <button id='new-quote' type="button" className="btn btn-primary" onClick={updateState}>Click me for random quote!</button> */}
                  <a id='tweet-quote' href='twitter.com/intent/tweet' target="_blank"><GrTwitter />Tweet</a>
-                 <br /><h7>by Ammarul</h7> <a style={{fontSize:"14px"}}id='source-code' href='https://github.com/mrlzchry/random-quote-machine.git'>Source Code</a>
+                 <h7>by Ammarul</h7> <a style={{fontSize:"14px"}}id='source-code' href='https://github.com/mrlzchry/random-quote-machine.git'>Source Code</a>
           </div>
       </div>
     </div>
